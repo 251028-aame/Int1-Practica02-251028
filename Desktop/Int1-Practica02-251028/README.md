@@ -1,4 +1,3 @@
-"# Int1-Practica02-251028" 
 # Int-Practica02-251028
 ---
 En esta practica aprenderemos a utilizar las herramientas Git y GitHub para el control de versiones de proyectos de desarrollo de Software, aplicando principios de buenas practicas de documentacion, desarrollo colaborativo y respaldo en la nube del proyecto integrador.
