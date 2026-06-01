@@ -231,3 +231,26 @@ Cambiando la estructura de maquetado por la etiqueta ``` <img> ```
 Ejemplo:
 
 <img src="./imagenes/Pochacco_Sanrio.webp" widt="100" height="50">
+
+
+### 10. Nota al pie
+
+### [FootNotes](https://github.com/markdown-it/markdown-it-footnote)
+
+Si nuestra documentación requiere ubicar notas de importancia o relevancia posterior podemos usar notas al pie de manera dinámica
+
+Nota al pie 1 [^first].
+Nota al pie 2 [^second].
+
+Referencias al pie dentro de un párrafo ^[Nota interna] extenso dentro de nuestra documentación 
+
+Segunda referencia a la nota 2[^second].
+
+[^first]: Nota al pie **Puede ser formateada**
+
+    y tener multiples líneas de parrafo
+[^second]: Texto de la segunda nota al pie.
+
+### 11.Abreviaciones
+
+actividad
