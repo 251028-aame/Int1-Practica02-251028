@@ -251,13 +251,13 @@ Segunda referencia a la nota 2[^second].
     y tener multiples líneas de parrafo
 [^second]: Texto de la segunda nota al pie.
 
-### 11.Abreviaciones
+### 11. Abreviaciones
 
 Las abreviaciones nos permiten definir el significado de siglas o términos técnicos dentro del documento. Al pasar el cursor sobre la palabra, se mostrará su definición.
 
-Este es un ejemplo con HTML como abreviación.
+Este es un ejemplo con <abbr title="Hyper Text Markup Language">HTML</abbr> como abreviación.
 
-También comvierte "HTML", pero mantiene intactas las entradas parciales como "xxxHTMLyyy" y así sucesivamente.
+También convierte "<abbr title="Hyper Text Markup Language">HTML</abbr>, pero mantiene intactas las entradas parciales como "xxxHTMLyyy" y así sucesivamente.
 
 *[HTML]: Hyper Text Markup Language
 
