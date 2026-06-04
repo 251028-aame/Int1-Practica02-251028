@@ -253,4 +253,31 @@ Segunda referencia a la nota 2[^second].
 
 ### 11.Abreviaciones
 
-actividad
+Las abreviaciones nos permiten definir el significado de siglas o términos técnicos dentro del documento. Al pasar el cursor sobre la palabra, se mostrará su definición.
+
+Este es un ejemplo con HTML como abreviación.
+
+También comvierte "HTML", pero mantiene intactas las entradas parciales como "xxxHTMLyyy" y así sucesivamente.
+
+*[HTML]: Hyper Text Markup Language
+
+### 12. Contenedores Personalizados (Custom Containers)
+
+Los contenedores personalizados nos permiten destacae bloques de información importante dentro de la documentación, como advertencias, notas o tips.
+
+La sintaxis estándar con markdown-it es la siguiente:
+
+::: warning
+*here be dragos*
+:::
+
+Github también tiene su propia sintaxis para alertas, estos son algunos ejemplos:
+
+>[!WARNING]
+>*here be dragons*
+
+>[!NOTE]
+>*Nota informativa, útil para aclaraciones generales*
+
+>[!TIP]
+>*Aquí va un consejo o recomendación*
